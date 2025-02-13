@@ -1,4 +1,4 @@
-const User = require("../models/UserModel");
+const User = require("../models/userModel");
 
 exports.addFavorite = async (req, res) => {
     try {

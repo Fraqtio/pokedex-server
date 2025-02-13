@@ -8,4 +8,7 @@ const UserSchema = new mongoose.Schema({
     favorites: [{ type: String }] // Список имен покемонов
 });
 
-module.exports = mongoose.model('User', UserSchema);
+// Проверка, чтобы не создать модель дважды
+const User = mongoose.models.User || mongoose.model('User', UserSchema);
+
+module.exports = User;
