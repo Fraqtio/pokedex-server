@@ -13,6 +13,9 @@ app.use(passport.initialize());
 connectDB();
 
 // Импорт маршрутов
+app.get("/", (req, res) => {
+    res.send("Welcome to the Pokemon API!");
+});
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/user', require('./routes/userRoutes'));
 app.use("/api/favorites", require("./routes/favoriteRoutes"));

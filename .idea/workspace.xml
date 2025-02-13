@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93aca1fe-4dac-4102-ad9b-ac25883f5836" name="Changes" comment="momgoose">
-      <change beforePath="$PROJECT_DIR$/config/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+    <list default="true" id="93aca1fe-4dac-4102-ad9b-ac25883f5836" name="Changes" comment="no errors on my env">
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739372206524</updated>
-      <workItem from="1739372207603" duration="21207000" />
+      <workItem from="1739372207603" duration="21465000" />
     </task>
     <task id="LOCAL-00001" summary="213">
       <option name="closed" value="true" />
@@ -176,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739445946412</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="no errors on my env">
+      <option name="closed" value="true" />
+      <created>1739446452278</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739446452278</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +197,7 @@
     <MESSAGE value="user model duplicate fixed" />
     <MESSAGE value="UserModel now from capital" />
     <MESSAGE value="momgoose" />
-    <option name="LAST_COMMIT_MESSAGE" value="momgoose" />
+    <MESSAGE value="no errors on my env" />
+    <option name="LAST_COMMIT_MESSAGE" value="no errors on my env" />
   </component>
 </project>
