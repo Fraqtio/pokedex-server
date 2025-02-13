@@ -4,7 +4,7 @@ const authMiddleware = require("../middleware/authMiddleware");
 const { getFavorites, addFavorite, removeFavorite } = require("../api/favorites");
 
 router.get("/", authMiddleware, getFavorites);
-router.post("/", authMiddleware, addFavorite);
+router.post("/:pokemonName", authMiddleware, addFavorite);
 router.delete("/:pokemonName", authMiddleware, removeFavorite);
 
 module.exports = router;
